@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>小梦的瞌睡窝</title>
-  <icon>https://poetic-dream124.github.io/project/icon.png</icon>
+  <icon>https://poetic-dream124.github.io/icon.png</icon>
   
-  <link href="https://poetic-dream124.github.io/project/atom.xml" rel="self"/>
+  <link href="https://poetic-dream124.github.io/atom.xml" rel="self"/>
   
-  <link href="https://poetic-dream124.github.io/project/"/>
+  <link href="https://poetic-dream124.github.io/"/>
   <updated>2025-09-10T06:52:43.750Z</updated>
-  <id>https://poetic-dream124.github.io/project/</id>
+  <id>https://poetic-dream124.github.io/</id>
   
   <author>
     <name>Poetic_dream</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>[你好世界]</title>
-    <link href="https://poetic-dream124.github.io/project/2025/09/09/HelloWorld/"/>
-    <id>https://poetic-dream124.github.io/project/2025/09/09/HelloWorld/</id>
+    <link href="https://poetic-dream124.github.io/2025/09/09/HelloWorld/"/>
+    <id>https://poetic-dream124.github.io/2025/09/09/HelloWorld/</id>
     <published>2025-09-09T14:55:22.095Z</published>
     <updated>2025-09-10T06:52:43.750Z</updated>
     
@@ -27,14 +27,14 @@
     
     
     
-    <category term="hello" scheme="https://poetic-dream124.github.io/project/tags/hello/"/>
+    <category term="hello" scheme="https://poetic-dream124.github.io/tags/hello/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://poetic-dream124.github.io/project/2025/09/09/hello-world/"/>
-    <id>https://poetic-dream124.github.io/project/2025/09/09/hello-world/</id>
+    <link href="https://poetic-dream124.github.io/2025/09/09/hello-world/"/>
+    <id>https://poetic-dream124.github.io/2025/09/09/hello-world/</id>
     <published>2025-09-09T07:10:29.410Z</published>
     <updated>2025-09-09T12:35:51.386Z</updated>
     
