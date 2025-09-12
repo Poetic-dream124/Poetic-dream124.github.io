@@ -263,7 +263,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">3</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -271,7 +271,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>Tag</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -344,10 +344,86 @@
       <div class="post-wrapper">
   <div class="post-wrap left" data-aos="fade-up">
     
-      <a class="post-link" href="/2025/09/09/HelloWorld/" aria-label="[你好世界]"></a>
+      <a class="post-link" href="/2025/09/12/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" aria-label="基本语法"></a>
     
     
     <div class="post-cover left">
+      
+        
+        
+          <img data-src="https://d-sketon.top/img/_backwebp/bg1.webp" data-sizes="auto" alt="基本语法" class="lazyload">
+        
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-09-12</span>
+        
+        <span><span class="icon-pencil"></span>241 words</span>
+        <span><span class="icon-clock"></span>1 min</span>
+      </div>
+      <h2 class="post-title">基本语法</h2>
+      <article class="post-article">
+        
+           Markdown 基本元素
+ 标题(#)
+ H1 or ======
+ H2 or -----
+ H3
+ H4
+ H5
+ H6
+ 强调
+Listen to your heart
+Keep calm and carry on
+这是废话文学
+下划线
+文本 上标
+文本 下标
+ 列表
+ 有序列表
+
+目录一
+2. 子目录
+目录二
+目录三
+目录四
+
+ 无序列表
+
+目录一
+
+子目录一
+
+
+目录二
+
+子目录二
+
+
+目录三
+目录四
+
+ 段落
+用不着为一次小小的挫折而痛哭流涕。人生本来就充满坎坷，没有创伤的珍珠贝，怎会有闪烁迷人的晶莹。跌几次跤，摔几次跟头，是经常的事。
+
+当事情变得糟糕时，也要抬起头微笑
+
+如
+        
+      </article>
+    </div>
+  </div>
+</div>
+      
+    
+      <div class="post-wrapper">
+  <div class="post-wrap right" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/09/09/HelloWorld/" aria-label="[你好世界]"></a>
+    
+    
+    <div class="post-cover right">
       
         
         
@@ -374,12 +450,12 @@
       
     
       <div class="post-wrapper">
-  <div class="post-wrap right" data-aos="fade-up">
+  <div class="post-wrap left" data-aos="fade-up">
     
       <a class="post-link" href="/2025/09/09/hello-world/" aria-label="Hello World"></a>
     
     
-    <div class="post-cover right">
+    <div class="post-cover left">
       
         
         
@@ -442,10 +518,10 @@ More info: Writing
     
       <div>
         <span class="icon-brush"></span>
-        80
+        321
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:02
+        00:03
       </div>
     
     
@@ -482,7 +558,7 @@ More info: Writing
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">3</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -490,7 +566,7 @@ More info: Writing
   </div>
   <div class="sidebar-state-tag">
     <div>Tag</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -907,7 +983,7 @@ More info: Writing
                         return result;
                     };
                     
-                    const groupedData = groupByYear([["2025-09-09",2]]);
+                    const groupedData = groupByYear([["2025-09-09",2],["2025-09-12",1]]);
                     const years = Object.keys(groupedData).reverse();
                     
                     var initYear = parseInt(heatmapChartDom.getAttribute('year')) || new Date().getFullYear();
@@ -1030,7 +1106,7 @@ More info: Writing
                         series: [{
                             name: 'Articles',
                             type: 'line',
-                            data: [2],
+                            data: [3],
                             smooth: true,
                             lineStyle: { color: '#5470C6', width: 2 },
                             itemStyle: { color: '#5470C6' },
@@ -1067,7 +1143,7 @@ More info: Writing
                         series: [{
                             type: 'pie',
                             radius: '60%',
-                            data: [{"name":"hello","value":1}],
+                            data: [{"name":"markdown","value":1},{"name":"hello","value":1}],
                             label: {
                                 position: 'outside',
                                 formatter: '{b} {c} ({d}%)',
@@ -1081,7 +1157,7 @@ More info: Writing
                         legend: {
                             bottom: '0',
                             left: 'center',
-                            data: [{"name":"hello","value":1}].map(tag => tag.name),
+                            data: [{"name":"markdown","value":1},{"name":"hello","value":1}].map(tag => tag.name),
                             textStyle: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
                         }
                     });

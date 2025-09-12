@@ -278,7 +278,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">3</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -286,7 +286,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>Tag</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -508,10 +508,10 @@
     
       <div>
         <span class="icon-brush"></span>
-        80
+        321
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:02
+        00:03
       </div>
     
     
@@ -556,7 +556,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">3</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -564,7 +564,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>Tag</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -1057,7 +1057,7 @@
               envId: '',
               region: '',
               urls: [
-                '/about/index.html'
+                '/friend/index.html'
               ],
               includeReply: false
             }).then((res) => {
@@ -1372,7 +1372,7 @@
                         return result;
                     };
                     
-                    const groupedData = groupByYear([["2025-09-09",2]]);
+                    const groupedData = groupByYear([["2025-09-09",2],["2025-09-12",1]]);
                     const years = Object.keys(groupedData).reverse();
                     
                     var initYear = parseInt(heatmapChartDom.getAttribute('year')) || new Date().getFullYear();
@@ -1495,7 +1495,7 @@
                         series: [{
                             name: 'Articles',
                             type: 'line',
-                            data: [2],
+                            data: [3],
                             smooth: true,
                             lineStyle: { color: '#5470C6', width: 2 },
                             itemStyle: { color: '#5470C6' },
@@ -1532,7 +1532,7 @@
                         series: [{
                             type: 'pie',
                             radius: '60%',
-                            data: [{"name":"hello","value":1}],
+                            data: [{"name":"markdown","value":1},{"name":"hello","value":1}],
                             label: {
                                 position: 'outside',
                                 formatter: '{b} {c} ({d}%)',
@@ -1546,7 +1546,7 @@
                         legend: {
                             bottom: '0',
                             left: 'center',
-                            data: [{"name":"hello","value":1}].map(tag => tag.name),
+                            data: [{"name":"markdown","value":1},{"name":"hello","value":1}].map(tag => tag.name),
                             textStyle: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
                         }
                     });
